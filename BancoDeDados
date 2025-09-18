@@ -1,0 +1,8 @@
+create database agenda;
+use agenda;
+create table contatos(
+id INT auto_increment primary key,
+nome varchar(150),
+email varchar(150),
+telefone varchar(25)
+);
